@@ -1,11 +1,11 @@
-# Vonage API - Voice enabling a text-only bot reference connection code
+# Vonage API - Voice enabling a text-only chatbot - Simple chatbot simulator
 
-You can use this very simple text-only to chatbot to simulate a real chatbot for demo purpose.
+You can use this very simple text-only to chatbot to simulate a real chatbot for demo purposes.
 
 
 ## About this very simple chatbot
 
-See https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr for a **sample Voice API application** using this very simple chatbot to connect voice calls and get a voice interaction with this text-only bot.
+See https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr for a **sample Voice API application** using this very simple chatbot to connect voice calls and get a voice interaction with this text-only chatbot.
 
 You may edit the source code file very-simple-bot.js to add additional sample requests/responses in the dictionaries and create new ones for additional languages.
 
@@ -56,7 +56,7 @@ git push heroku master
 
 ### Connecting server code to use
 
-To simulate the voice interaction with a text-only bot, you may use this very simple chatbot code
+To simulate the voice interaction with a text-only chatbot, you may use this very simple chatbot code
 ```bash
 node very-simple-bot.js
 ```
