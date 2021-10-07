@@ -48,10 +48,6 @@ heroku create myappname
 
 Note: In above command, replace "myappname" with a unique name on the whole Heroku platform.
 
-On your Heroku dashboard where your application page is shown, click on `Settings` button,
-add the following `Config Vars` and set it with its argument:</br>
-GOOGLE_APPLICATION_CREDENTIALS</br>
-
 Deploy the application:
 
 ```bash
