@@ -54,9 +54,9 @@ Deploy the application:
 git push heroku master
 ```
 
-### Connecting server code to use
+### Testing voice integration with a sample text-only simple chatbot 
 
-To simulate the voice interaction with a text-only chatbot, you may use this very simple chatbot code
+To simulate the voice interaction with a very simple sample text-only chatbot, you may use the code 
 ```bash
 node very-simple-bot.js
 ```
@@ -65,23 +65,12 @@ with the client application (from https://github.com/nexmo-se/voice-enabling-tex
 node voice-on-text-bot-app-with-simple-bot.js
 ```
 
---------
+### Voice enable your text-only chatbot 
 
-To just see the ASR results, you may use you may use this very simple chatbot code
-```bash
-node very-simple-bot.js
-```
+For voice enabling and integrating with your own text chatbot,
 
-with the client application (from https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr)
-```bash 
-node voice-on-text-bot-app-generic.js
-```
+you do not need any code from this repository, you will use and update the source code (from https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr):</br>
 
-of course, you would need to add your own code in this client application to interact with your actual text-only chatbot.
-
-
-
-
-
+voice-on-text-bot-app-generic.js
 
 
