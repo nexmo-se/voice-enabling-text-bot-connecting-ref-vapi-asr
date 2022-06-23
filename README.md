@@ -9,9 +9,11 @@ See https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr for 
 
 You may edit the source code file very-simple-bot.js to add additional sample requests/responses in the dictionaries and create new ones for additional languages.
 
-### Local deployment
+### Local deployment using ngrok
 
-To run your own instance of this sample application locally, you'll need an up-to-date version of Node.js (we tested with version 14.3.0).
+If you plan to test using `Local deployment with ngrok` (Internet tunneling service) on your own computer for both this simple chatbot sample server and the sample Voice API application, follow the instructions [here](https://github.com/nexmo-se/voice-enabling-text-bot-connecting-ref-vapi-asr#local-deployment) first.
+
+Then to run an instance of this sample application locally, you'll need an up-to-date version of Node.js (we tested with version 16.5.1).
 
 Download this sample application code to a local folder, then go to that folder.
 
@@ -42,11 +44,11 @@ git commit -am "initial"
 
 Start by creating this application on Heroku from the command line using the Heroku CLI:
 
-```bash
-heroku create myappname
-```
+*Note: In following command, replace "mysimplebotname" with a unique name on the whole Heroku platform.*
 
-Note: In above command, replace "myappname" with a unique name on the whole Heroku platform.
+```bash
+heroku create mysimplebotname
+```
 
 Deploy the application:
 
@@ -54,9 +56,13 @@ Deploy the application:
 git push heroku master
 ```
 
+In this case, when setting up the Voice API application, the parameter **`BOT_SRV`** argument will be
+*mysimplebotname.herokuapp.com* (replace mysimplebotname with its actual value, there is no leading https://, no trailing /)
+
+
 ### Testing voice integration with a sample text-only simple chatbot 
 
-To simulate the voice interaction with a very simple sample text-only chatbot, you may use the code 
+To simulate the voice interaction with this very simple sample text-only chatbot, you may run the program from this repository 
 ```bash
 node very-simple-bot.js
 ```
