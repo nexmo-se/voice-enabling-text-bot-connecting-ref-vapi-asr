@@ -11,7 +11,7 @@ You may edit the source code file very-simple-bot.js to add additional sample re
 
 ### Local deployment using ngrok
 
-If you plan to test using `Local deployment with ngrok` (Internet tunneling service) on your own computer for both this simple chatbot sample server and the sample Voice API application, follow the instructions [here](https://github.com/nexmo-se/voice-enabling-text-bot-connecting-ref-vapi-asr#local-deployment) first.
+If you plan to test using `Local deployment with ngrok` (Internet tunneling service) on your own computer for both this simple chatbot sample server and the sample Voice API application, follow the instructions [here](https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr#local-deployment-using-ngrok) first.
 
 Then to run an instance of this sample application locally, you'll need an up-to-date version of Node.js (we tested with version 16.5.1).
 
