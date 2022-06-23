@@ -36,6 +36,9 @@ Install [git](https://git-scm.com/downloads).
 Install [Heroku command line](https://devcenter.heroku.com/categories/command-line) and login to your Heroku account.
 
 If you do not yet have a local git repository, create one:</br>
+
+go to this simple bot application folder
+
 ```bash
 git init
 git add .
