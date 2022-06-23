@@ -27,9 +27,9 @@ Launch the applicatiom:
 node very-simple-bot
 ```
 
-### Command Line Heroku deployment
+### Hosted deployment on Heroku
 
-You must first have deployed your application locally, as explained in previous section, and verified it is working.
+If you would like to deploy this simple chatbot on Heroku hosted environment, then you must first have deployed your application locally, as explained in previous section, and verified it is working.
 
 Install [git](https://git-scm.com/downloads).
 
