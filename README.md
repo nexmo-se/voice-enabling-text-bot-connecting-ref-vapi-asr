@@ -5,7 +5,7 @@ You can use this very simple text-only to chatbot to simulate a real chatbot for
 
 ## About this very simple chatbot
 
-See https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr for a **sample Voice API application** using this very simple chatbot to connect voice calls and get a voice interaction with this text-only chatbot.
+See https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr for a **sample Voice API application** using this very simple chatbot to connect voice calls and get voice interactions with this text-only chatbot.
 
 You may edit the source code file very-simple-bot.js to add additional sample requests/responses in the dictionaries and create new ones for additional languages.
 
