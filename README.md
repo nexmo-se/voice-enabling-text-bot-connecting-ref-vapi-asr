@@ -1,17 +1,19 @@
 # Vonage API - Voice enabling a text-only chatbot - Simple chatbot simulator
 
-You can use this very simple text-only to chatbot to simulate a real chatbot for demo purposes.
+You can use this very simple text-only chatbot to simulate a real chatbot for demo purposes.
 
 
 ## About this very simple chatbot
 
-See https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr for a **sample Voice API application** using this very simple chatbot to connect voice calls and get voice interactions with this text-only chatbot.
+See https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr for a **sample Voice API application** using this very simple chatbot server to connect voice calls and get voice interactions with this text-only chatbot.
 
-You may edit the source code file very-simple-bot.js to add additional sample requests/responses in the dictionaries and create new ones for additional languages.
+You may edit the source code file *very-simple-bot.js* to add additional sample requests/responses in the dictionaries and create new ones for additional languages.
+
+This simple chatbot does not do Natural Language Processing. The caller will need to say exactly a request sentence as listed in the source code.
 
 ### Local deployment using ngrok
 
-If you plan to test using `Local deployment with ngrok` (Internet tunneling service) on your own computer for both this simple chatbot sample server and the sample Voice API application, follow the instructions [here](https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr#local-deployment-using-ngrok) (under **Local deployment using ngrok**) first.
+If you plan to test using `Local deployment with ngrok` (Internet tunneling service) on your own computer for both this simple chatbot sample server and the Voice API application, follow the instructions [here](https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr#local-deployment-using-ngrok) (under **Local deployment using ngrok**) first.
 
 Then to run an instance of this simple chatbot locally, you'll need an up-to-date version of Node.js (we tested with version 16.5.1).
 
@@ -45,7 +47,7 @@ git add .
 git commit -am "initial"
 ```
 
-Start by creating this application on Heroku from the command line using the Heroku CLI:
+Create this application on Heroku from the command line using the Heroku CLI:
 
 *Note: In following command, replace "mysimplebotname" with a unique name on the whole Heroku platform.*
 
@@ -80,6 +82,6 @@ For voice enabling and integrating with your own text chatbot,
 
 you do not need any code from this repository, you will use and update the source code (from https://github.com/nexmo-se/voice-enabling-text-bot-sample-app-vapi-asr):</br>
 
-voice-on-text-bot-app-generic.js
+*voice-on-text-bot-app-generic.js*
 
 
