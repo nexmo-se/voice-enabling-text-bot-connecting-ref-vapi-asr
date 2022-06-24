@@ -61,7 +61,7 @@ Deploy the application:
 git push heroku master
 ```
 
-In this case, when setting up the Voice API application, the parameter **`BOT_SRV`** argument will be
+In this case, when setting up the Voice API application, the parameter **`BOT_SERVER`** argument will be
 *mysimplebotname.herokuapp.com* (replace mysimplebotname with its actual value, there is no leading https://, no trailing /)
 
 
